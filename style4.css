@@ -1,0 +1,74 @@
+.java-content1 {
+    margin: 0%;
+    padding: 0%;
+}
+.java-container1 {
+    margin: 0;
+}
+.btn-space  {
+    display: flex;
+    bottom: 0;
+}
+.string {
+    color: rgb(228, 130, 11);
+}
+.violet {
+    color: darkviolet;
+}
+.bold-t {
+    font-weight: bold;
+    color: black;
+}
+.cover-program-class {
+    background-color: rgb(13,23,33);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border: none;
+}
+.cover-program-class h3 {
+    text-align: left;
+    margin-left: 10px;
+}
+.cover-program-class p {
+    color: white;
+}
+.program-class {
+    border-style: solid;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(21,32,43);
+}
+.program-class p {
+    width: 100%;
+    color: white;
+    padding: 0;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.bold-text {
+    font-weight: bold;
+}
+.bold-red {
+    color: brown;
+    font-weight: bold;
+}
+.comment {
+    color: #B2B2B2;
+}
+@media (max-width: 700px) {
+    .program-class {
+        overflow-x: scroll;
+    }
+}

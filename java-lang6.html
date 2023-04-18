@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet" type="text/css" href="style4.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Java Operators</title>
+</head>
+<body>
+	<div class="java-header">
+		<h1 class="title-head">Java Tutorial</h1>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+			<div class="java-container1">
+				<aside class="java-aside" id="features">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<h3>CODEHOME</h3>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="index.html#language-go">LANGUAGES</a></li>
+						<li><a href="index.html#quiz-go">QUIZZES</a></li>
+						<li><a href="index.html#tutorial-go">TUTORIAL</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<h3>JAVA</h3>
+						<li><a href="java-lang0.html">Java Introduction</a></li>
+						<li><a href="java-lang1.html">Java Syntax</a></li>
+						<li><a href="java-lang3.html">Java Comments</a></li>
+						<li><a href="java-lang4.html">Java Variables</a></li>
+						<li><a href="index.html#language-go">Other contents are still work in progress</a></li>
+					</ul>
+				</aside>
+					<script>
+	
+						var features = document.getElementById("features");
+
+					function showMenu() {
+						features.style.left = "0";
+						}
+					function hideMenu() {
+						features.style.left = "-300px";
+						}
+
+					</script>
+<!--- JAVA TUTORIAL SECTION --->
+			<div class="java-content1" style="flex: 1;">
+					<p><span class="p-java">Java Syntax</span><br>Let's say you created the following code in a Java file called <span class="bold-t">MyProgram.java</span>  to display <span class="string">"Hello World!"</span>  on the screen:</p>
+					<p>Java is owned by Oracle.</p>
+					<br>
+					<p><span class="p-java">What is the use of Java?</span><br>- Mobile application<br>- Web application<br>- Desktop GUI<br>- Application Servers<br>- Scientific application<br>- Business application<br>- Games<br>- And more!</p>
+					<div class="btn-space">
+						<a href="java-lang.html"><button class="start-here red-btn2">Previous</button></a>
+						<a href="java-lang2.html"><button class="start-here red-btn2">Next</button></a>
+					</div>	
+				</div>
+				<div class="flex1"></div>
+			</div>
+<!--- END OF TUTORIAL SECTION ---->
+	<section class="about-us">
+		<h4>About Us</h4>
+		<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i> 
+			<i class="fa fa-google"></i>
+		</div>
+</section>
+</body>
+</html>

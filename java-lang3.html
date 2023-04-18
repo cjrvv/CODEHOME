@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet" type="text/css" href="style4.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Java Comments</title>
+</head>
+<body>
+	<div class="java-header">
+		<h1 class="title-head">Java Tutorial</h1>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+			<div class="java-container1">
+				<aside class="java-aside" id="features">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<h3>CODEHOME</h3>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="index.html#language-go">LANGUAGES</a></li>
+						<li><a href="index.html#quiz-go">QUIZZES</a></li>
+						<li><a href="index.html#tutorial-go">TUTORIAL</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<h3>JAVA</h3>
+						<li><a href="java-lang0.html">Java Introduction</a></li>
+						<li><a href="java-lang1.html">Java Syntax</a></li>
+						<li><a href="java-lang3.html">Java Comments</a></li>
+						<li><a href="java-lang4.html">Java Variables</a></li>
+						<li><a href="index.html#language-go">Other contents are still work in progress</a></li>
+					</ul>
+				</aside>
+					<script>
+	
+						var features = document.getElementById("features");
+
+					function showMenu() {
+						features.style.left = "0";
+						}
+					function hideMenu() {
+						features.style.left = "-300px";
+						}
+
+					</script>
+<!--- JAVA TUTORIAL SECTION --->
+			<div class="java-content1" style="flex: 1;">
+				<p><span class="p-java">Java Comments</span><br>Comments are used in the program to both clarify it and make it simple for the programmer to distinguish between all of its parts.</p>
+				<p>There's a two ways to create a comment first the <span class="bold-t">Single-line Comments</span> and the other one is the <span class="bold-t">Multi-line Comments</span>.</p>
+				<div class="cover-program-class">
+					<h3>Single-line Comments</h3>
+					<p>You can put a Single-line comments in your program by using the two slashes <span class="bold-red">//</span>.</p><p>Any text you put after the double slashes will be ignored by Java.</p>
+					<div class="program-class">
+						<p><span class="violet">public class</span> MyProgram &#123;</p>
+						<p><span class="violet"> public static void </span>main&#40;String args&#91;&#93;&#41; &#123;</p>
+						<span class="comment">// You can comment here!</span>
+						<p> System.out.println&#40;<span class="string">"Hello World!"</span>&#41;;</p>
+						<p>	&#125;</p>
+						<p>&#125;</p>
+					</div>
+				</div>
+				<p>You can comment in single line only.</p>
+				<div class="cover-program-class">
+					<div class="program-class">
+						<p><span class="violet">public class</span> MyProgram &#123;</p>
+						<p><span class="violet"> public static void </span>main&#40;String args&#91;&#93;&#41; &#123;</p>
+						<p>   System.out.println&#40;<span class="string">"Hello World!"</span>&#41;;   <span class="comment">// And also you can comment here!</span></p>
+						<p>	&#125;</p>
+						<p>&#125;</p>
+					</div>
+				</div>
+				<p>And also you can add a comment on the line of your code.</p>
+				<div class="cover-program-class">
+					<h3>Multi-line Comments</h3>
+					<p>You can put a comments in a multiple lines in your program starts with one slash and one asterisk <span class="bold-red">/*</span> and ends with one asterisk and one slash <span class="bold-red">*/</span>.</p><p>Any text you put between these two <span class="bold-red">/*</span> and <span class="bold-red">*/</span>  will be ignored by Java.</p>
+					<div class="program-class">
+						<p><span class="violet">public class</span> MyProgram &#123;</p>
+						<p><span class="violet"> public static void </span>main&#40;String args&#91;&#93;&#41; &#123;</p>
+						<span class="comment">/* You can comment here</span><br><span class="comment">with multiple lines it only ends using this -> */</span>
+						<p>     System.out.println&#40;<span class="string">"Hello World!"</span>&#41;;</p>
+						<p>	&#125;</p>
+						<p>&#125;</p>
+					</div>
+				</div>
+				<div class="btn-space">
+						<a href="java-lang1.html"><button class="start-here red-btn2">Previous</button></a>
+						<a href="java-lang4.html"><button class="start-here red-btn2">Next</button></a>
+					</div>	
+				</div>
+				<div class="flex1"></div>
+			</div>
+<!--- END OF TUTORIAL SECTION ---->
+	<section class="about-us">
+		<h4>About Us</h4>
+		<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i> 
+			<i class="fa fa-google"></i>
+		</div>
+</section>
+</body>
+</html>

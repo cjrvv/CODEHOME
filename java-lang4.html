@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet" type="text/css" href="style4.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Java Variables</title>
+</head>
+<body>
+	<div class="java-header">
+		<h1 class="title-head">Java Tutorial</h1>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+			<div class="java-container1">
+				<aside class="java-aside" id="features">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<h3>CODEHOME</h3>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="index.html#language-go">LANGUAGES</a></li>
+						<li><a href="index.html#quiz-go">QUIZZES</a></li>
+						<li><a href="index.html#tutorial-go">TUTORIAL</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<h3>JAVA</h3>
+						<li><a href="java-lang0.html">Java Introduction</a></li>
+						<li><a href="java-lang1.html">Java Syntax</a></li>
+						<li><a href="java-lang3.html">Java Comments</a></li>
+						<li><a href="java-lang4.html">Java Variables</a></li>
+						<li><a href="index.html#language-go">Other contents are still work in progress</a></li>
+					</ul>
+				</aside>
+					<script>
+	
+						var features = document.getElementById("features");
+
+					function showMenu() {
+						features.style.left = "0";
+						}
+					function hideMenu() {
+						features.style.left = "-300px";
+						}
+
+					</script>
+<!--- JAVA TUTORIAL SECTION --->
+			<div class="java-content1" style="flex: 1;">
+					<p><span class="p-java">Java Variables</span><br>Variables it's like a storage this is where you can store data values in a particular variable.</p>
+					<p>There are different types of variables:</p>
+					<p><span class="bold-red">String</span> - can store text, for example <span class="string">"MY NAME"</span> inside the parenthesis double quotations are necessary.</p>
+					<p><span class="bold-red">int</span> - can only store a whole number, for example <span class="bold-t">26</span> and also we can add negative like <span class="bold-t">-2004</span>  as long as our value is a whole number.</p>
+					<p><span class="bold-red">char</span> - can only store a single character it's either capital or small letter. We use single quotation on this variable. For example <span class="bold-t">'a'</span> and <span class="bold-t">'A'</span>.</p>
+					<p><span class="bold-red">boolean</span> - can only stores true or false.</p>
+					<p><span class="bold-red">float</span> - can only stores a decimal number.</p>
+					<p><span class="p-java">Different ways to declare variables</span><br>Here an examples on how to declare different variables</p>
+					<div class="program-class">
+						<p><span class="string">String</span> OnlyText = <span class="string">"Today is my Birthday!"</span>;</p>
+						<p><span class="violet">int</span> OnlyWhole = <span class="violet">14</span>;</p>
+						<p><span class="string">char</span> OnlySingle = <span class="string">'C'</span>;</p>
+						<p><span class="violet">boolean</span> TAndF = <span class="violet">true</span>;</p>
+						<p><span class="violet">float</span> DeciNum = <span class="violet">14.08</span>;</p>
+					</div>
+					<div class="btn-space">
+						<a href="java-lang3.html"><button class="start-here red-btn2">Previous</button></a>
+						<a href="index.html#language-go"><button class="start-here red-btn2">Next</button></a>
+					</div>	
+				</div>
+				<div class="flex1"></div>
+			</div>
+<!--- END OF TUTORIAL SECTION ---->
+	<section class="about-us">
+		<h4>About Us</h4>
+		<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i> 
+			<i class="fa fa-google"></i>
+		</div>
+</section>
+</body>
+</html>
